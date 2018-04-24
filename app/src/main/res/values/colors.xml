@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="login_background_color">#fff</color>
+    <color name="textPrimary">#fff</color>
+    <color name="editTextcolor">#000</color>
+    <color name="button">#31363E</color>
+    <color name="radio_button">#42A5F5</color>
+</resources>

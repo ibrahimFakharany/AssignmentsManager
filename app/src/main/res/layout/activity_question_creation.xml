@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question_creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="exampleoncreatingfixedfragment.example.com.androidproject.Doctor.QuestionCreation">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:id="@+id/question_body_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_et"
+            android:hint="@string/question"
+            android:textSize="@dimen/text_view_size"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+           />
+
+        <EditText
+            android:id="@+id/a_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_et"
+            android:hint="@string/choiceA"
+            android:textSize="@dimen/text_view_size"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:id="@+id/b_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_et"
+            android:hint="@string/choiceB"
+            android:textSize="@dimen/text_view_size"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:id="@+id/c_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_et"
+            android:hint="@string/choiceC"
+            android:textSize="@dimen/text_view_size"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:id="@+id/d_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_et"
+            android:hint="@string/choiceD"
+            android:textSize="@dimen/text_view_size"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+        <EditText
+            android:id="@+id/correctEt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_et"
+            android:hint="@string/correct_text"
+            android:textSize="@dimen/text_view_size"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+        <Button
+            android:id="@+id/next_create_btn"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:text="@string/next_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="exampleoncreatingfixedfragment.example.com.androidproject.Doctor.DetailCourseActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/course_num_edt_detail"
+            android:layout_width="match_parent"
+            android:hint="@string/txt_hint_course_num"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="@dimen/layout_height_et"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:textSize="@dimen/radion_button_text_size"/>
+
+        <EditText
+            android:id="@+id/course_name_edt_detail"
+            android:layout_width="match_parent"
+            android:hint="@string/txt_hint_course_name"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="@dimen/layout_height_et"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:textSize="@dimen/radion_button_text_size"/>
+
+        <EditText
+            android:id="@+id/course_point_edt_detail"
+            android:layout_width="match_parent"
+            android:hint="@string/txt_hint_course_point"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="@dimen/layout_height_et"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:textSize="@dimen/radion_button_text_size"/>
+
+        <EditText
+            android:id="@+id/course_semster_edt_detail"
+            android:layout_width="match_parent"
+            android:hint="@string/txt_hint_course_semster"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="@dimen/layout_height_et"
+            android:paddingLeft="@dimen/edit_text_detail_course_padding_left"
+            android:paddingTop="@dimen/edit_text_detail_course_padding_top"
+            android:paddingBottom="@dimen/edit_text_detail_course_padding_top"
+            android:textSize="@dimen/radion_button_text_size" />
+
+        <Button
+            android:id="@+id/course_update_btn_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_update"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

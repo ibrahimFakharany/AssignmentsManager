@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--login and sign up screens strings-->
+    <string name="btn_login">LogIn</string>
+    <string name="btn_signup">SignUp</string>
+    <string name="tv_signup"><u>SignUp</u></string>
+    <string name="txt_hint_username">Username</string>
+    <string name="txt_hint_address">Address</string>
+    <string name="txt_hint_password">Password</string>
+    <string name="btn_student_nav">Student</string>
+    <string name="btn_doctor_nav">Doctor</string>
+    <string name="txt_hint_last_name">Last name</string>
+    <string name="txt_hint_first_name">First name</string>
+    <string name="ip">http://192.168.1.3/androidproject</string>
+    <string name="txt_hint_phone_number">Phone number</string>
+    <string name="tv_indicator">Welcome</string>
+    <string name="student">Student</string>
+    <string name="doctor">Doctor</string>
+    <string name="btn_update">Update</string>
+
+    <string name="txt_hint_course_num">Course number</string>
+    <string name="txt_hint_course_name">Course name</string>
+    <string name="txt_hint_course_point">Course point</string>
+    <string name="txt_hint_course_semster">Semster</string>
+    <string name="btn_add_course">ADD</string>
+    <string name="over_see_student">Over see Students</string>
+    <string name="add_assignment_icon">Add assignment</string>
+    <string name="description">Description</string>
+    <string name="instruction">Instruction</string>
+    <string name="create">Create</string>
+    <string name="choiceA">a.</string>
+    <string name="choiceB">b.</string>
+    <string name="choiceC">c.</string>
+    <string name="choiceD">d.</string>
+    <string name="next_btn">NEXT</string>
+    <string name="correct_text">correct answer</string>
+    <string name="question">Question</string>
+
+
+    <!-- Assignment spinner values -->
+    <string-array name="type_of_work">
+        <item>Individual</item>
+        <item>Group</item>
+    </string-array>
+
+    <string-array name="number_of_questions">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+    <string name="choose_type">type</string>
+    <string name="number_of_question">number of question</string>
+</resources>

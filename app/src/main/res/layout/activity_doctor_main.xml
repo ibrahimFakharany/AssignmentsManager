@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doctor_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativecontainlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="exampleoncreatingfixedfragment.example.com.androidproject.Doctor.DoctorMain">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+        <LinearLayout
+            android:layout_below="@id/app_bar"
+            android:id="@+id/outerlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <exampleoncreatingfixedfragment.example.com.androidproject.NestedListView
+                android:id="@+id/doctor_main_listview"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/add_course_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/outerlist"
+            android:background="@color/white"
+            android:foregroundGravity="center"
+            android:src="@drawable/addicon48" />
+
+    </RelativeLayout>
+</ScrollView>
